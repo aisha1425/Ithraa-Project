@@ -1,0 +1,2 @@
+C:/Users/aesha/Ithraa Project/ithraa flutter/android/app/.cxx/Debug/0361e3qg/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/aesha/Ithraa Project/ithraa flutter/android/app/.cxx/Debug/0361e3qg/x86_64/CMakeFiles/rebuild_cache.dir

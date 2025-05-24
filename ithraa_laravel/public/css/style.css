@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-decoration: none;
+}
+
+a {
+    color: black !important;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.cotainer-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.card-div {
+    border-radius: 10px;
+    padding: 16px 32px;
+    box-shadow: 1px 2px 5px;
+    background-color: white;
+    width: 400px;
+}
+
+.flex-col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span {
+    position: absolute;
+    margin-left: 5px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding-left: 25px;
+}
+
+.dashboard {
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.left-part {
+    height: 100%;
+
+    background-color: rgb(224, 210, 224);
+    display: flex;
+
+    padding: 16px;
+    flex-direction: column;
+
+}
+
+.left-item {
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-item>i {
+    font-size: 32px;
+
+}
+
+.left-item:hover {
+    color: rgb(88, 3, 145);
+}
+
+.active {
+    color: rgb(88, 3, 145);
+}
+
+.top-bar {
+    width: 100%;
+    background-color: rgb(88, 3, 145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 16px;
+}
+
+.top-bar>h3 {
+    color: white;
+}
+
+.top-bar-icon {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(187, 156, 187);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.right-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-data {}
+
+.card-icon {
+    width: 30px;
+    height: 30px;
+    background-color: skyblue;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon>i {
+    color: blue;
+    font-size: larger;
+}
+
+.dashboard-home {
+    padding: 32px;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    padding: 16px 32px;
+    box-shadow: 1px 2px 5px;
+    background-color: rgb(250, 250, 250);
+    /* width: 300px; */
+}
+
+
+.flex-basis {
+    flex-basis: 24%;
+}
+
+@media (max-width: 991px) {
+    .flex-basis {
+        flex-basis: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-basis {
+        flex-basis: 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .flex-basis {
+        flex-basis: 100%;
+    }
+}
+
+.accom-card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 16px;
+    /* padding: 8px; */
+    box-shadow: 0px 1px 3px;
+    background-color: rgb(250, 250, 250);
+}
+
+.btn-add {
+    border-radius: 10px;
+    padding: 16px 28px;
+    background-color: purple;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white !important;
+}
+
+
+.btn-add > span {
+    
+    
+}
+.policy {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    margin: 8px 16px;
+    /* padding: 8px; */
+    box-shadow: 0px 1px 3px;
+    background-color: rgb(250, 250, 250);
+}
+.policy-card {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 8px 16px; */
+    /* padding: 8px; */
+    /* box-shadow: 0px 1px 3px; */
+    /* background-color: rgb(250, 250, 250); */
+}
+.arrow-toggle{
+
+}
+
+.visible-wrap{
+    display: block !important;
+}
+.hidden-wrap{
+    display: none !important;
+}
+
+.fadedItem {
+    opacity: 0.5;
+    color: grey !important;
+}
+.activeItem {
+    opacity: 1 !important;
+    color: purple !important;
+}
